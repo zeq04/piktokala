@@ -10,12 +10,14 @@ in any browser to preview it locally.
 ## File structure
 
 ```
-site/
-├── index.html      → all page content
-├── style.css       → design system + animations
-├── script.js       → shutter intro, scroll reveals, nav, cursor, etc.
-└── assets/         → logo, team photos, event photos, gallery, QR codes
-```
+piktokala-site/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── logo.png
+    ├── activity1.jpg
+    ├── ... (all other images)
 
 ## Publish it free on GitHub Pages
 
