@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIKTOKala — Photography Club of Assam Skill University</title>
+<meta name="description" content="PIKTOKala — the Photography &amp; Cinematography Club of Assam Skill University. Through lenses, we see more. Through photos, we tell stories.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;600&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Shutter intro overlay -->
+<div class="shutter-intro" id="shutterIntro" aria-hidden="true">
+  <div class="shutter-blade blade-1"></div>
+  <div class="shutter-blade blade-2"></div>
+  <div class="shutter-blade blade-3"></div>
+  <div class="shutter-blade blade-4"></div>
+  <div class="shutter-blade blade-5"></div>
+  <div class="shutter-blade blade-6"></div>
+  <div class="shutter-center">
+    <img src="assets/logo.png" alt="" class="shutter-logo">
+  </div>
+</div>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Custom cursor ring -->
+<div class="lens-cursor" id="lensCursor" aria-hidden="true"></div>
+
+<!-- Flash overlay -->
+<div class="flash-overlay" id="flashOverlay" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="siteNav">
+  <a href="#top" class="nav-brand">
+    <img src="assets/logo.png" alt="PIKTOKala logo" class="nav-logo">
+    <span class="nav-brand-text">PIKTO<em>Kala</em></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about" data-label="01">About</a>
+    <a href="#activities" data-label="02">Activities</a>
+    <a href="#gallery" data-label="03">Gallery</a>
+    <a href="#team" data-label="04">Team</a>
+    <a href="#join" data-label="05">Join</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg" id="heroBg">
+    <div class="hero-bg-row row-a">
+      <img src="assets/gallery1.jpg" alt="">
+      <img src="assets/activity1.jpg" alt="">
+      <img src="assets/gallery6.jpg" alt="">
+      <img src="assets/activity5.jpg" alt="">
+      <img src="assets/gallery9.jpg" alt="">
+    </div>
+    <div class="hero-bg-row row-b">
+      <img src="assets/activity3.jpg" alt="">
+      <img src="assets/gallery4.jpg" alt="">
+      <img src="assets/activity7.jpg" alt="">
+      <img src="assets/gallery2.jpg" alt="">
+      <img src="assets/activity2.jpg" alt="">
+    </div>
+  </div>
+  <div class="hero-scrim"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow mono">PHOTOGRAPHY &amp; CINEMATOGRAPHY CLUB — ASSAM SKILL UNIVERSITY</p>
+
+    <div class="hero-logo-wrap">
+      <div class="aperture-ring" id="apertureRing">
+        <svg viewBox="0 0 400 400" class="aperture-svg">
+          <g id="apertureBlades"></g>
+          <circle cx="200" cy="200" r="188" class="aperture-outline"/>
+          <circle cx="200" cy="200" r="196" class="aperture-outline-dim"/>
+        </svg>
+      </div>
+      <img src="assets/logo.png" alt="PIKTOKala — Photography Club of Assam Skill University" class="hero-logo">
+    </div>
+
+    <p class="hero-tagline">Through lenses, we see more.<br>Through photos, <span class="hl">we tell stories.</span></p>
+
+    <div class="hero-exif mono">
+      <span>f/2.8</span><span class="dot">·</span><span>1/250s</span><span class="dot">·</span><span>ISO 400</span><span class="dot">·</span><span>35mm</span>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to explore">
+      <span class="scroll-cue-line"></span>
+      <span class="mono">SCROLL</span>
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-head reveal">
+    <span class="section-tag mono">// 01 — ABOUT</span>
+    <h2 class="section-title">Every corner of campus,<br>through <em>our</em> lens.</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-copy reveal">
+      <p class="about-lead">Our Photography Club is the university's creative visual team — capturing and preserving memorable moments from campus events, cultural programs, seminars, sports, and celebrations.</p>
+      <p>We cover major university functions through event photography and videography, turning special moments into lasting memories while helping promote campus life on social media and in the university archives.</p>
+      <p>Alongside documentation, we give members real opportunities to grow — camera handling, editing, visual storytelling, and photojournalism — through workshops, photo walks, competitions, exhibitions, and hands-on event coverage.</p>
+
+      <div class="about-tags">
+        <span class="chip">Workshops</span>
+        <span class="chip">Photo Walks</span>
+        <span class="chip">Competitions</span>
+        <span class="chip">Exhibitions</span>
+        <span class="chip">Event Coverage</span>
+        <span class="chip">Photojournalism</span>
+      </div>
+    </div>
+
+    <div class="about-frame reveal">
+      <div class="polaroid">
+        <img src="assets/gallery3.jpg" alt="Assam Skill University campus, black and white">
+        <span class="polaroid-cap mono">ASU CAMPUS — BLOCK F</span>
+      </div>
+      <div class="about-badge">
+        <span class="about-badge-num">10</span>
+        <span class="about-badge-label mono">core team<br>members</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section class="activities" id="activities">
+  <div class="section-head reveal">
+    <span class="section-tag mono">// 02 — ON LOCATION</span>
+    <h2 class="section-title">Activities &amp; Events</h2>
+    <p class="section-sub">Sports days, open-mic nights, workshops and seminars — if it's happening on campus, we're there with a camera.</p>
+  </div>
+
+  <div class="activities-grid reveal">
+    <figure class="a-item a-tall"><img src="assets/activity1.jpg" loading="lazy" alt="Table tennis at the campus sports meet"><figcaption class="mono">SPORTS MEET</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity2.jpg" loading="lazy" alt="Students playing carom"><figcaption class="mono">CAROM NIGHT</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity3.jpg" loading="lazy" alt="Live harmonium and tabla performance"><figcaption class="mono">CULTURAL EVE</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity4.jpg" loading="lazy" alt="Breakdancer mid-move"><figcaption class="mono">DANCE NIGHT</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity5.jpg" loading="lazy" alt="Open mic singer with guitarist"><figcaption class="mono">OPEN MIC</figcaption></figure>
+    <figure class="a-item a-tall"><img src="assets/activity6.jpg" loading="lazy" alt="Badminton match on campus court"><figcaption class="mono">BADMINTON</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity7.jpg" loading="lazy" alt="Seminar hall audience during a talk"><figcaption class="mono">SEMINAR</figcaption></figure>
+    <figure class="a-item"><img src="assets/activity8.jpg" loading="lazy" alt="Workshop session in a classroom"><figcaption class="mono">WORKSHOP</figcaption></figure>
+  </div>
+</section>
+
+<!-- FEATURED POSTER / WORLD PHOTOGRAPHY DAY -->
+<section class="feature">
+  <div class="feature-inner reveal">
+    <div class="feature-copy">
+      <span class="section-tag mono">// FEATURED SHOOT</span>
+      <h2 class="feature-title">World Photography<br>Day <span class="hl">— 19 August</span></h2>
+      <p>One of our signature campus-wide shoots: an open call for every lens on campus, celebrating the craft with a full day of capture, critique and community.</p>
+      <p class="feature-quote">"Every picture tells a story. What's yours?"</p>
+    </div>
+    <div class="feature-art">
+      <img src="assets/poster.jpg" alt="World Photography Day event poster by PIKTOKala" class="feature-poster">
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY (filmstrip) -->
+<section class="gallery" id="gallery">
+  <div class="section-head reveal">
+    <span class="section-tag mono">// 03 — CONTACT SHEET</span>
+    <h2 class="section-title">Campus, in black &amp; white</h2>
+    <p class="section-sub">Frames from our mobile photography contest — theme: black &amp; white photography of the Assam Skill University campus.</p>
+  </div>
+
+  <div class="filmstrip-wrap reveal">
+    <div class="sprocket-row" aria-hidden="true"></div>
+    <div class="filmstrip-track" id="filmstripTrack">
+      <div class="filmstrip-inner">
+        <div class="frame"><img src="assets/gallery1.jpg" loading="lazy" alt="Campus building at dusk"></div>
+        <div class="frame"><img src="assets/gallery2.jpg" loading="lazy" alt="Campus building, wide angle"></div>
+        <div class="frame"><img src="assets/gallery3.jpg" loading="lazy" alt="ASU entrance signage"></div>
+        <div class="frame"><img src="assets/gallery4.jpg" loading="lazy" alt="Indoor sports court"></div>
+        <div class="frame"><img src="assets/gallery5.jpg" loading="lazy" alt="ASU main building"></div>
+        <div class="frame"><img src="assets/gallery6.jpg" loading="lazy" alt="Empty road at night"></div>
+        <div class="frame"><img src="assets/gallery7.jpg" loading="lazy" alt="Campus building under construction"></div>
+        <div class="frame"><img src="assets/gallery8.jpg" loading="lazy" alt="Trees reflected in water"></div>
+        <div class="frame"><img src="assets/gallery9.jpg" loading="lazy" alt="Students at a construction site"></div>
+      </div>
+      <div class="filmstrip-inner" aria-hidden="true">
+        <div class="frame"><img src="assets/gallery1.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery2.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery3.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery4.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery5.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery6.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery7.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery8.jpg" loading="lazy" alt=""></div>
+        <div class="frame"><img src="assets/gallery9.jpg" loading="lazy" alt=""></div>
+      </div>
+    </div>
+    <div class="sprocket-row" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="section-head reveal">
+    <span class="section-tag mono">// 04 — THE CREW</span>
+    <h2 class="section-title">Meet the Team</h2>
+    <p class="section-sub">Ten students behind every shot, every reel, every archive.</p>
+  </div>
+
+  <div class="team-grid reveal">
+
+    <article class="t-card t-photo">
+      <div class="t-img"><img src="assets/team-abulkalam.jpg" loading="lazy" alt="Abul Kalam Jalal Choudhury"></div>
+      <h3>Abul Kalam Jalal Choudhury</h3>
+      <p class="mono">Chief Student Coordinator / President</p>
+    </article>
+
+    <article class="t-card t-photo">
+      <div class="t-img"><img src="assets/team-abushamim.jpg" loading="lazy" alt="Abu Shamim Nazmul Aman"></div>
+      <h3>Abu Shamim Nazmul Aman</h3>
+      <p class="mono">Creative Head &amp; PR</p>
+    </article>
+
+    <article class="t-card t-photo">
+      <div class="t-img"><img src="assets/team-anurag.jpg" loading="lazy" alt="Anurag Deori"></div>
+      <h3>Anurag Deori</h3>
+      <p class="mono">Joint Chief Coordinator / Vice President</p>
+    </article>
+
+    <article class="t-card t-photo">
+      <div class="t-img"><img src="assets/team-ranjita.jpg" loading="lazy" alt="Ranjita Devi"></div>
+      <h3>Ranjita Devi</h3>
+      <p class="mono">Social Media Coordinator</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">TS</div>
+      <h3>Tirupalli Saikia</h3>
+      <p class="mono">Secretary</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">KH</div>
+      <h3>Kaushik Haloi</h3>
+      <p class="mono">Joint Social Media Coordinator</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">MB</div>
+      <h3>Madhushreya Baruah</h3>
+      <p class="mono">Joint Secretary</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">NJ</div>
+      <h3>Nekibur Jaman</h3>
+      <p class="mono">Joint Public Relation</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">HB</div>
+      <h3>Himanshu Baruah</h3>
+      <p class="mono">Joint Event Management</p>
+    </article>
+
+    <article class="t-card">
+      <div class="t-mono-avatar" aria-hidden="true">TH</div>
+      <h3>Tahirul Hoque</h3>
+      <p class="mono">Event Management</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="join" id="join">
+  <div class="section-head reveal light">
+    <span class="section-tag mono">// 05 — JOIN IN</span>
+    <h2 class="section-title">Grab your camera.<br>Join the club.</h2>
+    <p class="section-sub">Scan to join the WhatsApp group or follow along on Instagram — new members and every skill level welcome.</p>
+  </div>
+
+  <div class="join-grid reveal">
+    <div class="join-card">
+      <div class="join-qr"><img src="assets/qr-whatsapp.jpg" alt="QR code to join the PIKTOKala Capture Club WhatsApp group"></div>
+      <h3>WhatsApp Group</h3>
+      <p class="mono">PIKTOKala Capture Club</p>
+    </div>
+
+    <div class="join-card">
+      <div class="join-qr"><img src="assets/qr-instagram.jpg" alt="QR code to follow PIKTOKala on Instagram"></div>
+      <h3>Instagram</h3>
+      <p class="mono">@piktokala_asu</p>
+    </div>
+  </div>
+
+  <p class="join-thanks">Thanks for stopping by. <span class="hl">See you at the next shoot.</span></p>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <img src="assets/logo.png" alt="PIKTOKala logo" class="footer-logo">
+    <p class="footer-tag mono">SEE. CAPTURE. INSPIRE.</p>
+  </div>
+  <div class="footer-bottom">
+    <p>Photography Club of Assam Skill University</p>
+    <p class="mono">@piktokala_asu</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
